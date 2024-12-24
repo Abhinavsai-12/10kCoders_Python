@@ -7,14 +7,12 @@ if a>18:
   print("Your Elgible to vote")
 
 
-
 #if-else Statement
 b = 22
 if b>18:
   print("Your Elgible to vote")
 else:
   print("Not elgible")
-
 
 
 #elif Statement
@@ -28,10 +26,8 @@ else:
   print("a is greater than b")
 
 
-
 #nested if Statement
 x = 41
-
 if x > 10:
   print("Above ten,")
   if x > 20:

@@ -60,6 +60,13 @@ print(s1)
 print(type(s1))
 
 
+
+
+
+
+
+
+
 #Dictionary
 
 person={
@@ -72,8 +79,3 @@ print(person["name"])
 print(person["age"])
 print(person["city"])
 print(type(person))
-
-
-
-
-
