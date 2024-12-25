@@ -15,6 +15,7 @@ else:
   print("Not elgible")
 
 
+
 #elif Statement
 a = 200
 b = 33
@@ -24,6 +25,7 @@ elif a == b:
   print("a and b are equal")
 else:
   print("a is greater than b")
+
 
 
 #nested if Statement
@@ -41,8 +43,3 @@ if x > 10:
 a = 2
 b = 330
 print("A") if a > b else print("B")
-
-
-
-
-
