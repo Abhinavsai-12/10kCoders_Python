@@ -7,6 +7,7 @@ if a>18:
   print("Your Elgible to vote")
 
 
+
 #if-else Statement
 b = 22
 if b>18:
