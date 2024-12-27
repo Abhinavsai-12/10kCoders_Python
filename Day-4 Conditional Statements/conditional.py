@@ -1,10 +1,12 @@
 #Conditional Statements
 
 
+
 #if Statement
 a = 22
 if a>18:
   print("Your Elgible to vote")
+
 
 
 
@@ -14,6 +16,7 @@ if b>18:
   print("Your Elgible to vote")
 else:
   print("Not elgible")
+
 
 
 
@@ -29,6 +32,7 @@ else:
 
 
 
+
 #nested if Statement
 x = 41
 if x > 10:
@@ -37,6 +41,7 @@ if x > 10:
     print("and also above 20!")
   else:
     print("but not above 20.")
+
 
 
 
