@@ -45,6 +45,7 @@ if x > 10:
 
 
 
+
 #Shorthand - if statement
 a = 2
 b = 330

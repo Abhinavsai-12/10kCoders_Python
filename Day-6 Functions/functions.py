@@ -4,4 +4,5 @@ def even_odd(x):
     else:
         print("odd")
 
+        
 even_odd(5)
