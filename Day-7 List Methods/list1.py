@@ -5,9 +5,11 @@ list1=[2,3,5,7,8]
 print(list1)
 
 
+
 #Accessing Lists
 print(list1[0])
 print(list1[-1])
+
 
 
 #iterating through for loop 
@@ -15,11 +17,13 @@ for i in list1:
     print(i)
 
 
+
 #iterating through while loop 
 index=0
 while index < len(list1):
     print(list1[index])
     index +=1
+
 
 
 #list Methods
