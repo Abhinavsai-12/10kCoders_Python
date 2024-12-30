@@ -82,3 +82,12 @@ squares=[x**2 for x in range(5)]
 print(squares)
 
 
+# In React, rendering is the process of describing a user interface based on the application's current state and props: 
+# Initial render: The first render when the application starts up
+# Re-rendering: Occurs when there is a change in the state to figure out which parts of the UI need an update
+# Re-rendering happens when: 
+# A user interacts with the app
+# Some external data comes through via an asynchronous request or some subscription model
+# In React, the render method: 
+# Sets up the child component's initial state and lifecycle methods
+# Always returns a single child component
