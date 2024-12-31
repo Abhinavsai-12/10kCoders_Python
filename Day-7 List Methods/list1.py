@@ -88,6 +88,3 @@ print(squares)
 # Re-rendering happens when: 
 # A user interacts with the app
 # Some external data comes through via an asynchronous request or some subscription model
-# In React, the render method: 
-# Sets up the child component's initial state and lifecycle methods
-# Always returns a single child component
