@@ -87,4 +87,3 @@ print(squares)
 # Re-rendering: Occurs when there is a change in the state to figure out which parts of the UI need an update
 # Re-rendering happens when: 
 # A user interacts with the app
-# Some external data comes through via an asynchronous request or some subscription model
