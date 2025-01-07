@@ -85,5 +85,4 @@ print(squares)
 # In React, rendering is the process of describing a user interface based on the application's current state and props: 
 # Initial render: The first render when the application starts up
 # Re-rendering: Occurs when there is a change in the state to figure out which parts of the UI need an update
-# Re-rendering happens when: 
-# A user interacts with the app
+
