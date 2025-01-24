@@ -71,6 +71,7 @@ print("reverse",num)
 
 #Sort
 num.sort()
+
 print("Sort",num)
 
 #min and Max
