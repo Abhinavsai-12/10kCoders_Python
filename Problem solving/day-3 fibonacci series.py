@@ -103,18 +103,39 @@
 
 
 
-# 8. write a program to print sum of prime numbers in fibonaci series
+# # 8. write a program to print sum of prime numbers in fibonaci series
 
-n=int(input("Enter range"))
-i=1
-a=0
-b=1
-while i<=n:
+# import math
 
-    c=a+b
-    a=b
-    b=c
-    
-    i+=1
-    # print(a)
-    if a%2=0:
+# n = int(input("Enter range: "))
+# i = 1
+# a, b = 0, 1
+# prime_sum = 0
+
+# while i <= n:
+#     c = a + b  
+#     a, b = b, c
+#     i += 1
+
+#     # Prime Check
+#     if a > 1:  # 1 is not prime
+#         is_prime = True
+#         for x in range(2, int(math.sqrt(a)) + 1):
+#             if a % x == 0:
+#                 is_prime = False
+#                 break
+        
+#         if is_prime:
+#             prime_sum += a  # Add to sum if prime
+
+# print("Sum of prime numbers in Fibonacci series:", prime_sum)
+
+
+
+
+
+#  9. Nearest Prime number
+
+
+
+
