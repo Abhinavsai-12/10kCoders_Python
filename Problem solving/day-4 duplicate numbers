@@ -1,0 +1,189 @@
+
+
+# # 1. unique numbers in given number
+# n="324356"
+# unique=""
+
+# for i in n:
+#     if i not in unique:
+#         unique+=i
+# print(unique)
+
+
+
+# # 2. Duplicate Numbers
+
+
+# n = "43723397"
+# unq = ""
+# dup = ""
+
+# # Extract unique digits
+# for i in n:
+#     if i not in unq:
+#         unq += i
+
+# # Find duplicate digits
+# for i in unq:  # Loop through unique digits
+#     count = 0
+#     for j in n:  # Count occurrences in n
+#         if i == j:
+#             count += 1
+
+#     if count > 1:  # If digit appears more than once, add to dup
+#         dup += i
+
+# print("Duplicate digits:", dup)
+
+
+# (or)
+
+# n = "4372339"
+# seen = set()
+# duplicates = set()
+
+# for digit in n:
+#     if digit in seen:
+#         duplicates.add(digit)
+#     seen.add(digit)
+
+# print("Duplicate digits:", duplicates if duplicates else "No duplicates")
+
+
+
+# #3. count how many times each digit appears in this string.
+
+# n="122345546"
+# unq=""
+
+# for i in n:
+#     if i not in unq:
+#         unq+=i
+# print(unq)
+
+# for i in unq:
+#     count=0
+#     for j in n:
+#         if i==j:
+#             count+=1
+#     print(i, count)
+
+
+
+
+# #4. count duplicate values of each number present in given number
+# n="122345546"
+# unq=""
+
+# for i in n:
+#     if i not in unq:
+#         unq+=i
+# print(unq)
+
+# for i in unq:
+#     count=0
+#     for j in n:
+#         if i==j:
+#             count+=1
+
+#     if count>1:
+#         print(i, count)
+
+
+# #5. Minimum and maximum number in duplicate
+
+# n = "43575235397"
+# unq = ""
+# dup = ""
+
+# # Extract unique digits
+# for i in n:
+#     if i not in unq:
+#         unq += i
+
+# # Find duplicate digits
+# for i in unq: 
+#     count = 0
+#     for j in n:
+#         if i == j:
+#             count += 1
+
+#     if count > 1:  
+#         dup += i
+# print("Duplicate digits:", dup)
+
+
+# min=dup[0]
+# max=dup[0]
+
+# for i in dup:
+#     if i < min:
+#         min=i
+
+#     if i>max:
+#         max=i
+
+# print(min)
+# print(max)
+
+
+# #6. sum of min numbers of unique and duplicate Number
+# n = "43575235397"
+# unq = ""
+# dup = ""
+
+# # Extract unique digits
+# for i in n:
+#     if i not in unq:
+#         unq += i
+
+# # Find duplicate digits
+# for i in unq: 
+#     count = 0
+#     for j in n:
+#         if i == j:
+#             count += 1
+
+#     if count > 1:  
+#         dup += i
+
+
+# munq=unq[0]
+# mdup=dup[0]
+
+# for i in unq:
+#     if i < munq:
+#         munq=i
+
+# for i in dup:
+#     if i<mdup:
+#         mdup=i
+
+# print("Duplicate digits:", dup)
+# print("Unique digits:", unq)
+
+# print("minimum duplicate digits:", mdup)
+# print("Minimum Unique digits:", munq)
+
+# sum=int(munq)+int(mdup)
+# print("sum of minimum number of unq and dup",sum)
+
+
+# # 7. reverse of individual prime numbers 
+# #Example: i/p: 3 5 7 9 11 13 15  o/p: 3 5 7 9 11 31 51
+
+
+# num=20
+# for n in range(1,num):
+#     if n>1:
+#         c=0
+#         for i in range(2,n):
+#             if n%i==0:
+#                 c+=1
+#                 break
+
+#         if c==0:
+#             t=str(n)
+#             t1=t[::-1]
+#             print(t1, end=" ")
+
