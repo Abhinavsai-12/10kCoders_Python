@@ -12,6 +12,8 @@
 
 
 
+
+
 # #2. print True if given array is increasing order
 # num = [1, 2, 3, 7, 8]
 # c=0
@@ -35,6 +37,9 @@
 #         if numbers[i] < numbers[j]:
 #             numbers[i], numbers[j] = numbers[j], numbers[i]
 # print(numbers)
+
+
+
 
 
 
