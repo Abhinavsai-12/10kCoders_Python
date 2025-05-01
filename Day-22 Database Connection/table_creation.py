@@ -23,7 +23,7 @@ try:
 
 
     cursor.execute("""
-    CREATE TABLE IF NOT EXISTS students (
+    CREATE TABLE IF NOT EXISTS student1 (
         id INT AUTO_INCREMENT PRIMARY KEY,
         name VARCHAR(255),
         age INT
