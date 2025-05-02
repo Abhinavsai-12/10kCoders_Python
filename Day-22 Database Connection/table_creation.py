@@ -15,6 +15,7 @@ try:
 
     cursor = connection.cursor()
 
+
     # cursor.execute("SHOW DATABASES")  # Show all databases
     # for db in cursor:
     #     print(db)
